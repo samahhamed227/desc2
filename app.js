@@ -16,20 +16,20 @@ console.log(user1+"false my age is 25");
 
 
   
-let user2 = prompt(' Am i Plestanian?');
+let user2 = prompt('Did I study software engineering??');
 switch(user2.toLowerCase()){
     
     case "yes" :
-     alert (user2+" Iam  pelstanian" );
-        console.log("Iam  pelstanian "+user2);
+     alert (user2+" Iam  study software eng" );
+        console.log("Iam  study software eng"+user2);
     break;
 
     
     
     default:
 
-alert (user2+"false Iam pelstanian ");
-console.log(user2+"false Iam pelstanian");
+alert (user2+"Iam  study software eng ");
+console.log(user2+"Iam  study software eng");
 break;
 
 }
@@ -53,30 +53,30 @@ break;
 
 
 
- let user4 = prompt('Is my favorite dish is kabsa? ');
+ let user4 = prompt('Did I study in al balqaa university? ');
  
  switch(user4.toLowerCase()){
     
     case "yes" :
-    alert (user4 +""+" my favourit dish is kabsa ");
-    console.log(user4 +""+" my favourit dish is kabsa ");
+    alert (user4 +""+" Iam study in Bau ");
+    console.log(user4 +""+" Iam study in Bau university ");
 
     break;
 default:
 
-alert (user4+"false my favourit dish is kabsa");
-console.log(user4+""+"my favourit dish is kabsa");
+alert (user4+"Iam study in Bau");
+console.log(user4+""+"Iam study in Bau");
 break;
 
 }
 
 
-let user5 = prompt('Did you enjoy with me? ');
+let user5 = prompt('did you know Me? ');
  
  switch(user5.toLowerCase()){
     
     case "yes" :
-    alert (user5 +""+" ohh great");
+    alert (user5 +""+" ohh great I'm so happy ");
     console.log(user5+""+" you are welcome ");
 
     break;
@@ -91,13 +91,13 @@ break;
 let user6 = prompt('what\'s you\'r name? ');
 alert("welcome"+" "+user6);
 
-document.write("welcome"+user6);
+document.write("welcome"+""+user6);
 
 
 /// const
 
- const ID = '1236789';
- console.log(ID);
+ ///const ID = '1236789';
+ ///console.log(ID);
 
 
 
