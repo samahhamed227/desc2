@@ -9,8 +9,8 @@ let user1 = prompt(' Is my age 25?');
         } 
 
       else {
-            alert (user1+"false my age is 25");
-console.log(user1+"false my age is 25");
+            alert (user1+"Wrong my age is 25");
+console.log(user1+"Wrong my age is 25");
         }
      
 
@@ -20,32 +20,32 @@ let user2 = prompt('Did I study software engineering??');
 switch(user2.toLowerCase()){
     
     case "yes" :
-     alert (user2+" Iam  study software eng" );
-        console.log("Iam  study software eng"+user2);
+     alert (user2+" I  studied software eng" );
+        console.log("I  studied software eng"+user2);
     break;
 
     
     
     default:
 
-alert (user2+"Iam  study software eng ");
-console.log(user2+"Iam  study software eng");
+alert (user2+"I  studied software eng ");
+console.log(user2+"I  studied software eng");
 break;
 
 }
   
-let user3 = prompt('Is my name samah?');
+let user3 = prompt('Is my name Samah?');
 switch(user3.toLowerCase()){
     
     case "yes" :
     alert ("my name is samah  "+user3 );
-    console.log(user3+""+" my name is  samah");
+    console.log(user3+""+" my name is  Samah");
     break;
 
 default:
 
-alert (user3+"false my name is samah ");
-console.log(user3+"false my name is samah");
+alert (user3+"Wrong my name is Samah ");
+console.log(user3+"Wrong my name is Samah");
 break;
 
 }
@@ -58,20 +58,20 @@ break;
  switch(user4.toLowerCase()){
     
     case "yes" :
-    alert (user4 +""+" Iam study in Bau ");
-    console.log(user4 +""+" Iam study in Bau university ");
+    alert (user4 +""+" I studied in Bau ");
+    console.log(user4 +""+" I studied in Bau university ");
 
     break;
 default:
 
-alert (user4+"Iam study in Bau");
-console.log(user4+""+"Iam study in Bau");
+alert (user4+"I studied in Bau");
+console.log(user4+""+"I studied in Bau");
 break;
 
 }
 
 
-let user5 = prompt('did you know Me? ');
+let user5 = prompt('do you know Me now? ');
  
  switch(user5.toLowerCase()){
     
@@ -92,6 +92,14 @@ let user6 = prompt('what\'s you\'r name? ');
 alert("welcome"+" "+user6);
 
 document.write("welcome"+""+user6);
+
+
+
+
+
+
+
+
 
 
 /// const
