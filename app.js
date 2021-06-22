@@ -53,9 +53,6 @@ break;
 
 }
 
-
-
-
  let user4 = prompt('Did I study in al balqaa university? ');
  
  switch(user4.toLowerCase()){
@@ -106,13 +103,11 @@ document.write("welcome"+""+user6);
             let user7 = prompt('guess  number and enter it');
 
          if(user7>5)
-            {
-    
+            {    
              
         alert (user7 +""+" it\'s too high ");
                 console.log(user7);
-            
-            }
+                       }
 
                else if(user7<5)
                {
@@ -120,13 +115,9 @@ document.write("welcome"+""+user6);
             console.log(user7);
                }
           
-
-
              else if(user7==5)  
-            {
-
-                
-                alert (user7 +""+"oh !! You know the number pravoooo");
+            {  
+           alert (user7 +""+"oh !! You know the number pravoooo");
                 console.log(user7);
 
           i=4;
@@ -144,7 +135,6 @@ if(i==3){
 
          
 
-console.log("the total number of correct answers."+score);
     
 let user8 = prompt('guess whats my Favorite food?');
 let favFood = ['mansaf', 'pasta', 'fish', 'mjadara'];
@@ -165,8 +155,13 @@ else {
 
 alert(" that's my favorite food "+""+favFood);
 
+if (score>=4){
+document.write("your correct answer ="+""+score+""+"you are pass" );
+}
+else{
+    document.write(" "+"your correct answer ="+""+score+""+"you are fail" );
 
-document.write("your correct answer ="+""+score);
+}
 /// const
 
  ///const ID = '1236789';
