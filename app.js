@@ -1,10 +1,10 @@
 
-  
+  'use strict';
 let user1 = prompt(' Is my age 25?');
-
+let score =0;
     if (user1==="yes") {
         alert ("True "+user1);
-
+score++;
         console.log("yes my age is "+user1);
         } 
 
@@ -22,6 +22,8 @@ switch(user2.toLowerCase()){
     case "yes" :
      alert (user2+" I  studied software eng" );
         console.log("I  studied software eng"+user2);
+        score++;
+
     break;
 
     
@@ -40,6 +42,7 @@ switch(user3.toLowerCase()){
     case "yes" :
     alert ("my name is samah  "+user3 );
     console.log(user3+""+" my name is  Samah");
+    score++;
     break;
 
 default:
@@ -60,6 +63,8 @@ break;
     case "yes" :
     alert (user4 +""+" I studied in Bau ");
     console.log(user4 +""+" I studied in Bau university ");
+    score++;
+
 
     break;
 default:
@@ -78,6 +83,8 @@ let user5 = prompt('do you know Me now? ');
     case "yes" :
     alert (user5 +""+" ohh great I'm so happy ");
     console.log(user5+""+" you are welcome ");
+    score++;
+
 
     break;
 default:
@@ -94,28 +101,73 @@ alert("welcome"+" "+user6);
 document.write("welcome"+""+user6);
 
 
+        for(let i=0 ;i<4;i++)
+        {
+            let user7 = prompt('guess  number and enter it');
+
+         if(user7>5)
+            {
+    
+             
+        alert (user7 +""+" it\'s too high ");
+                console.log(user7);
+            
+            }
+
+               else if(user7<5)
+               {
+            alert (user7+"it\'s too low ");
+            console.log(user7);
+               }
+          
 
 
+             else if(user7==5)  
+            {
+
+                
+                alert (user7 +""+"oh !! You know the number pravoooo");
+                console.log(user7);
+
+          i=4;
+          score++;
+
+            }        
+if(i==3){
+    alert ("the number is = 5");
+    console.log(user7);
+
+}
+
+            }
+        
+
+         
+
+console.log("the total number of correct answers."+score);
+    
+let user8 = prompt('guess whats my Favorite food?');
+let favFood = ['mansaf', 'pasta', 'fish', 'mjadara'];
+
+for(let i=0;i<5;i++){
+    
+if(user8.toLocaleLowerCase()===favFood[0]||user8.toLocaleLowerCase()===favFood[1]||user8.toLocaleLowerCase()===favFood[2]||user8.toLocaleLowerCase()===favFood[3]){
+    alert("Yes that's right");
+    
+    score;
+    break;
+}
+else {
+    user8= prompt('guess whats my Favorite food?');
+
+}
+}
+
+alert(" that's my favorite food "+""+favFood);
 
 
-
-
-
-
+document.write("your correct answer ="+""+score);
 /// const
 
  ///const ID = '1236789';
  ///console.log(ID);
-
-
-
-
-
-
-
-
-
-
-
-
-
