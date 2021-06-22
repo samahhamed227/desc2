@@ -1,7 +1,7 @@
 
   'use strict';
+ let score =0;
 let user1 = prompt(' Is my age 25?');
-let score =0;
     if (user1==="yes") {
         alert ("True "+user1);
 score++;
@@ -138,27 +138,38 @@ if(i==3){
     
 let user8 = prompt('guess whats my Favorite food?');
 let favFood = ['mansaf', 'pasta', 'fish', 'mjadara'];
-
-for(let i=0;i<5;i++){
-    
-if(user8.toLocaleLowerCase()===favFood[0]||user8.toLocaleLowerCase()===favFood[1]||user8.toLocaleLowerCase()===favFood[2]||user8.toLocaleLowerCase()===favFood[3]){
+let i
+for(i=0;i<5;i++)
+{
+     
+  
+ if(user8.toLocaleLowerCase()===favFood[0]||user8.toLocaleLowerCase()===favFood[1]||user8.toLocaleLowerCase()===favFood[2]||user8.toLocaleLowerCase()===favFood[3]){
     alert("Yes that's right");
     
-    score;
+    score++;
     break;
 }
-else {
-    user8= prompt('guess whats my Favorite food?');
+
+else  {
+    
+
+    user8= prompt('guess whats my Favorite food?');}
+   
+}
+
+  
+if (i===5){
+    alert(" you fail that's my favorite food "+""+favFood);
 
 }
-}
 
-alert(" that's my favorite food "+""+favFood);
+//}
 
-if (score>=4){
+
+if (score>4){
 document.write("your correct answer ="+""+score+""+"you are pass" );
 }
-else{
+else  {
     document.write(" "+"your correct answer ="+""+score+""+"you are fail" );
 
 }
