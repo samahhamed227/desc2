@@ -1,6 +1,8 @@
 
   'use strict';
+  
  let score =0;
+function Q1 (){
 let user1 = prompt(' Is my age 25?');
     if (user1==="yes") {
         alert ("True "+user1);
@@ -13,9 +15,10 @@ score++;
 console.log(user1+"Wrong my age is 25");
         }
      
+    }
+    Q1();// add afunction by rawnaq
 
-
-  
+  function Q2 (){
 let user2 = prompt('Did I study software engineering??');
 switch(user2.toLowerCase()){
     
@@ -35,7 +38,10 @@ console.log(user2+"I  studied software eng");
 break;
 
 }
+  }
+  Q2();// add afunction by rawnaq
   
+  function Q3 (){
 let user3 = prompt('Is my name Samah?');
 switch(user3.toLowerCase()){
     
@@ -52,7 +58,10 @@ console.log(user3+"Wrong my name is Samah");
 break;
 
 }
-
+  }
+  Q3();// add afunction by rawnaq
+  
+  function Q4 (){
  let user4 = prompt('Did I study in al balqaa university? ');
  
  switch(user4.toLowerCase()){
@@ -71,9 +80,12 @@ console.log(user4+""+"I studied in Bau");
 break;
 
 }
+  }
 
+  Q4();// add afunction by rawnaq
 
-let user5 = prompt('do you know Me now? ');
+function Q5(){
+ let user5 = prompt('do you know Me now? ');
  
  switch(user5.toLowerCase()){
     
@@ -91,12 +103,15 @@ console.log(user5+""+"why???");
 break;
 
 }
+}
+Q5();// add afunction by rawnaq
+
 
 let user6 = prompt('what\'s you\'r name? ');
 alert("welcome"+" "+user6);
 
 document.write("welcome"+""+user6);
-
+function Q6 (){
 
         for(let i=0 ;i<4;i++)
         {
@@ -132,10 +147,10 @@ if(i==3){
 
             }
         
+        }
+Q6();// add afunction by rawnaq
 
-         
-
-    
+function Q7 (){    
 let user8 = prompt('guess whats my Favorite food?');
 let favFood = ['mansaf', 'pasta', 'fish', 'mjadara'];
 let i
@@ -162,8 +177,9 @@ if (i===5){
     alert(" you fail that's my favorite food "+""+favFood);
 
 }
+}
 
-//}
+Q7();// add afunction by rawnaq
 
 
 if (score>4){
@@ -173,6 +189,7 @@ else  {
     document.write(" "+"your correct answer ="+""+score+""+"you are fail" );
 
 }
+
 /// const
 
  ///const ID = '1236789';
