@@ -108,9 +108,9 @@ Q5();// add afunction by rawnaq
 
 
 let user6 = prompt('what\'s you\'r name? ');
-alert("welcome"+" "+user6);
+alert("welcome"+" "+user6+"");
 
-document.write("welcome"+""+user6);
+document.write("welcome  "+"  "+user6);
 function Q6 (){
 
         for(let i=0 ;i<4;i++)
